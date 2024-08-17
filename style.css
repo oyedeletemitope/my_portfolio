@@ -177,6 +177,47 @@ span {
     margin: 2rem 0 3rem;
 }
 
+.skills {
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.skill i {
+    font-size: 15rem;
+    color: var(--main-color);
+}
+
+.skill span {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.projects {
+    background: var(--sec-bg-color);
+}
+
+
 .projects h2 {
     margin-bottom: 5rem;
 }
@@ -191,11 +232,11 @@ span {
 
 .project-container .project-box {
     flex: 1 1 30rem;
-    background: var(--sec-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .2rem solid var(--sec-bg-color);
     transition: .5s ease;
 }
 
@@ -261,6 +302,7 @@ span {
     font-size: 2.4rem;
     color: var(--sec-bg-color);
 }
+
 
 /*BREAKPOINTS*/
 
